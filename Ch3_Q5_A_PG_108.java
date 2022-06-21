@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-public class Ch3_Q5_A_PG_105
+public class Ch3_Q5_A_PG_108
 {
     public static void main(String[] args)
     {
@@ -8,7 +7,7 @@ public class Ch3_Q5_A_PG_105
         Scanner sc = new Scanner(System.in); //Initiating scanner
         System.out.println(" > Enter income "); 
         TI = sc.nextDouble(); //Accepting value of income
-        if(TI < 160000)
+        if(TI < 160000) //Using if statement to identify value of Total income
         {
             System.out.println(" TAX --> NIL ");
         }

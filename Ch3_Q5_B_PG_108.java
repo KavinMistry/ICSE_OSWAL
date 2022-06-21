@@ -1,5 +1,5 @@
 import java.util.Scanner; //Importing scanner to accept values from user
-public class Ch3_Q5_B_PG_105
+public class Ch3_Q5_B_PG_108
 {
     public static void main(String[] args)
     {
@@ -7,7 +7,7 @@ public class Ch3_Q5_B_PG_105
         Scanner sc = new Scanner(System.in); //Defining scanner
         System.out.println(" > Enter the total cost ");
         TC = sc.nextDouble(); //Accepting value of total cost using scanner
-        if(TC < 2000 )
+        if(TC < 2000 ) //Using if statement to identify value of total cost
         {
             Dis = 0.15 * TC; //Using 0.15 instead of 15/100 to calculate percentage because JAVA does not handle divisions well
             Dis = TC - Dis; //Defining 'Dis' variable two separate times because it gives accurate results
