@@ -36,6 +36,6 @@ public class Ch3_Q5_A_PG_108
             System.out.println(" ERROR --> Invalid input ");
         }
         sc.close(); //Closing resource leak of sc(Scanner)
-        System.out.println(" Contact me on github if you face any issues with the program \n GITHUB ID --> KavinMistry ");
+        System.out.println(" > Contact me on github if you face any issues with the program \n GITHUB ID --> KavinMistry ");
     }
 }

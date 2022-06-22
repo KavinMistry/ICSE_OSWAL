@@ -23,7 +23,7 @@ public class Ch3_Q5_G_PG_109
         {
             System.out.println(" Invalid weight of groceries ");
         }
-        sc.close();
-        System.out.println(" Contact me on github if you face any issues with the program \n GITHUB ID --> KavinMistry ");
+        sc.close(); //Closing resource leak
+        System.out.println(" > Contact me on github if you face any issues with the program \n GITHUB ID --> KavinMistry ");
     }
 }

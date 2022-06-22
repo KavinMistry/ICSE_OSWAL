@@ -31,6 +31,7 @@ public class Ch3_Q5_E_PG_109
         {
             System.out.println(" > Invalid amount of days late ");
         }
-        System.out.println(" Contact me on github if you face any issues with the program \n GITHUB ID --> KavinMistry ");
+        sc.close(); //Closing resource leak
+        System.out.println(" > Contact me on github if you face any issues with the program \n GITHUB ID --> KavinMistry ");
     }
 }
