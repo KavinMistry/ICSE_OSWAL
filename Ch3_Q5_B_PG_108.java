@@ -21,7 +21,7 @@ public class Ch3_Q5_B_PG_108
         }
         else if(TC > 5000 && TC <= 10000 )
         {
-            Dis = 0.35 * TC
+            Dis = 0.35 * TC;
             Dis = TC - Dis;
             System.out.println(" Discounted price is --> " + Dis );
         }
@@ -29,6 +29,7 @@ public class Ch3_Q5_B_PG_108
         {
             System.out.println(" Invalid Total cost ");
         }
+        sc.close(); //Closing resource leak of sc(Scanner)
         System.out.println(" Contact me on github if you face any issues with the program \n GITHUB ID --> KavinMistry ");
     }
 }
